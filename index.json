@@ -1,5 +1,12 @@
 [
 {
+	"uri": "https://hydraimageprocessor.com/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "https://hydraimageprocessor.com/",
 	"title": "HIP",
 	"tags": [],
@@ -7,25 +14,11 @@
 	"content": "Hydra Image Processor Hydra Image Processor (also know as Hydra or HIP) is a image filtering toolkit that uses GPU acceleration.\nWhy use Hydra? Light microscopes can now capture data in five dimensions at very high frame rates producing terabytes of data per experiment. Five-dimensional data has three spatial dimensions (x, y, z), multiple channels ($\\lambda$) and time (t). Current tools are prohibitively time consuming and do not efficiently utilize available hardware. The Hydra is a new library providing hardware-accelerated image processing accessible from interpreted languages including MATLAB and Python. Hydra automatically distributes data/computation across system and video RAM allowing hardware-accelerated processing of arbitrarily large images. Hydra also partitions compute tasks optimally across multiple GPUs. Hydra includes a new kernel renormalization reducing boundary effects associated with widely used padding approaches.\n"
 },
 {
-	"uri": "https://hydraimageprocessor.com/posts/my-first-post/",
-	"title": "My First Post",
+	"uri": "https://hydraimageprocessor.com/quick-start/",
+	"title": "Quick Start",
 	"tags": [],
 	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://hydraimageprocessor.com/posts/",
-	"title": "Posts",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://hydraimageprocessor.com/categories/",
-	"title": "Categories",
-	"tags": [],
-	"description": "",
-	"content": ""
+	"content": "Download Download the current files for Windows and Linux here.\nRequirements Windows  Nvidia graphics card (compute capability 3.5 or better) MATLAB 2018 or newer The latest Graphics driver  MacOS Currently unsupported.\nUsing Hydra with MATLAB  Download the MATLAB zip file from the download link above. Unzip the files. Place all folders with the + (plus) symbol in your MATLAB folder  Windows: C:\\Users\\username\\Documents\\MATLAB) Linux: /home/username/Documents/MATLAB   Open MATLAB Check if Hydra is loaded by running:  dev = HIP.Cuda.DeviceStatus()  Using Hydra with Python  Download the source zip file from the download link above. Unzip the files. Navigate to the src/Python folder. Copy the HIP.lib or HIP.so to a location where you can import into python Check if Hydra is loaded by running:  import HIP dev = HIP.Cuda.DeviceStats() print(dev)  "
 },
 {
 	"uri": "https://hydraimageprocessor.com/tags/",

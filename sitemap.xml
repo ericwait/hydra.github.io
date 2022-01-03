@@ -2,16 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hydraimageprocessor.com/</loc>
-    <lastmod>2021-07-31T21:27:07-04:00</lastmod>
-  </url><url>
-    <loc>https://hydraimageprocessor.com/posts/my-first-post/</loc>
-    <lastmod>2021-07-31T21:27:07-04:00</lastmod>
-  </url><url>
-    <loc>https://hydraimageprocessor.com/posts/</loc>
-    <lastmod>2021-07-31T21:27:07-04:00</lastmod>
-  </url><url>
     <loc>https://hydraimageprocessor.com/categories/</loc>
+  </url><url>
+    <loc>https://hydraimageprocessor.com/</loc>
+  </url><url>
+    <loc>https://hydraimageprocessor.com/quick-start/</loc>
   </url><url>
     <loc>https://hydraimageprocessor.com/tags/</loc>
   </url>

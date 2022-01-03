@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/logo_1ldpi.png" type="image/png">
 
-    <title>Tags :: Hydra Image Processor</title>
+    <title>Quick Start :: Hydra Image Processor</title>
 
     
     <link href="/css/nucleus.css?1641183736" rel="stylesheet">
@@ -41,7 +41,7 @@
 
 
   </head>
-  <body class="" data-url="/tags/">
+  <body class="" data-url="/quick-start/">
     <nav id="sidebar" class="">
 
 
@@ -95,8 +95,8 @@
   
     
     <li data-nav-id="/quick-start/" title="Quick Start" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/quick-start/">
@@ -160,7 +160,7 @@ Hydra image processor: 5-D GPU image analysis library with MATLAB and python wra
             
           
           
-            <a href='/'>HIP</a> > Tags
+            <a href='/'>HIP</a> > Quick Start
           
         
           
@@ -171,7 +171,19 @@ Hydra image processor: 5-D GPU image analysis library with MATLAB and python wra
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#download">Download</a></li>
+    <li><a href="#requirements">Requirements</a>
+      <ul>
+        <li><a href="#windows">Windows</a></li>
+        <li><a href="#macos">MacOS</a></li>
+      </ul>
+    </li>
+    <li><a href="#using-hydra-with-matlab">Using Hydra with MATLAB</a></li>
+    <li><a href="#using-hydra-with-python">Using Hydra with Python</a></li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -187,9 +199,7 @@ Hydra image processor: 5-D GPU image analysis library with MATLAB and python wra
           
             <h1>
               
-                tag ::
-              
-              Tags
+              Quick Start
             </h1>
           
 
@@ -197,11 +207,47 @@ Hydra image processor: 5-D GPU image analysis library with MATLAB and python wra
 
 
 
-
-
+	<h2 id="download">Download</h2>
+<p>Download the current files for Windows and Linux <a href="https://github.com/ericwait/hydra-image-processor/releases">here</a>.</p>
+<h2 id="requirements">Requirements</h2>
+<h3 id="windows">Windows</h3>
 <ul>
-	
+<li>Nvidia graphics card (<a href="https://developer.nvidia.com/cuda-gpus#compute">compute capability</a> 3.5 or better)</li>
+<li>MATLAB 2018 or newer</li>
+<li>The latest <a href="https://www.nvidia.com/Download/index.aspx">Graphics driver</a></li>
 </ul>
+<h3 id="macos">MacOS</h3>
+<p><em>Currently unsupported.</em></p>
+<h2 id="using-hydra-with-matlab">Using Hydra with MATLAB</h2>
+<ol>
+<li>Download the MATLAB zip file from the <a href="#download">download</a> link above.</li>
+<li>Unzip the files.</li>
+<li>Place all folders with the + (plus) symbol in your MATLAB folder
+<ul>
+<li>Windows: <code>C:\Users\username\Documents\MATLAB)</code></li>
+<li>Linux: <code>/home/username/Documents/MATLAB</code></li>
+</ul>
+</li>
+<li>Open MATLAB</li>
+<li>Check if Hydra is loaded by running:</li>
+</ol>
+<pre><code class="language-matlab">dev = HIP.Cuda.DeviceStatus()
+</code></pre>
+<h2 id="using-hydra-with-python">Using Hydra with Python</h2>
+<ol>
+<li>Download the source zip file from the <a href="#download">download</a> link above.</li>
+<li>Unzip the files.</li>
+<li>Navigate to the <code>src/Python</code> folder.</li>
+<li>Copy the <code>HIP.lib</code> or <code>HIP.so</code> to a location where you can import into python</li>
+<li>Check if Hydra is loaded by running:</li>
+</ol>
+<pre><code class="language-python">import HIP
+dev = HIP.Cuda.DeviceStats()
+print(dev)
+</code></pre>
+
+
+
 
 
 <footer class=" footline" >
@@ -239,8 +285,6 @@ Hydra image processor: 5-D GPU image analysis library with MATLAB and python wra
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -262,8 +306,8 @@ Hydra image processor: 5-D GPU image analysis library with MATLAB and python wra
 	 
 	 
 		
+			<a class="nav nav-prev" href="/" title="HIP"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/quick-start/" title="Quick Start" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
